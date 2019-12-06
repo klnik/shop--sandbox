@@ -1,0 +1,16 @@
+.calculator {
+  margin: auto;
+  vertical-align: center;
+  width: 30%;
+  height: 300px;
+  background-color: blue;
+
+  #display {
+    margin: 5px;
+    resize: none;
+    text-align: right;
+    font-size: 40px;
+    width: 95%;
+    height: 100px;
+  }
+}
