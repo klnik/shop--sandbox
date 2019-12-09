@@ -1,18 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import { BrowserRouter } from "react-router-dom";
 
-import HomePage from './pages/homepage/homepage.component';
+import "./index.css";
+import App from "./App";
 
-import "./styles.scss";
-
-
-function App() {
-  return (
-    <div className="App">
-      <HomePage />
-    </div>
-  );
-}
-
-const rootElement = document.getElementById("root");
-ReactDOM.render(<App />, rootElement);
+ReactDOM.render(
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>,
+  document.getElementById("root")
+);
