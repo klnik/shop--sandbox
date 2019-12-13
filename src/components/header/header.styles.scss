@@ -20,6 +20,7 @@
   .option {
     width: 5rem;
     font-size: 1.4rem;
+    cursor: pointer;
 
 
     &:not(:last-child) {
@@ -28,7 +29,7 @@
 
     &--menu {
       display: flex;
-      justify-content: flex-end
+      justify-content: center
     }
     
   }
