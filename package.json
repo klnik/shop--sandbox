@@ -5,7 +5,8 @@
   "main": "index.html",
   "scripts": {
     "start": "parcel index.html --open",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html",
+    "eject": "react-scripts eject"
   },
   "dependencies": {
     "firebase": "6.0.2",
@@ -15,7 +16,8 @@
     "react-redux": "7.0.3",
     "react-router-dom": "5.0.0",
     "redux": "4.0.1",
-    "redux-logger": "3.0.6"
+    "redux-logger": "3.0.6",
+    "react-scripts": "3.0.1"
   },
   "devDependencies": {
     "parcel-bundler": "^1.6.1",
