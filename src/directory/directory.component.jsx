@@ -33,7 +33,7 @@ export default class Directory extends React.Component {
         {
           title: "womens",
           imageUrl:
-            "https://images.unsplash.com/photo-1498842812179-c81beecf902c?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;w=1000&amp;q=80",
+            "https://images.unsplash.com/photo-1529903384028-929ae5dccdf1?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;w=1000&amp;q=80",
           size: "large",
           id: 4,
           linkUrl: "shop/womens"

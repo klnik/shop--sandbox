@@ -4,13 +4,34 @@
   flex-direction: column;
   align-items: center;
   height: 350px;
+  position: relative;
 
-  &--img {
+  .img {
     width: 100%;
     height: 95%;
     background-size: cover;
     background-position: center;
+    margin-bottom: 5px;
+    opacity: 1;
+    
+  }
 
+  .custom-button {
+    width: 80%;
+    opacity: .7;
+    position: absolute;
+    top: 255px;
+    display: none;
+  }
+
+  &:hover {
+    .custom-button {
+      display: inline-block;
+    }
+
+    .img {
+      opacity: .85;
+    }
   }
 
   &--footer {
