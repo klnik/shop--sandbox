@@ -12,10 +12,14 @@ import "./header.styles.scss";
 const Header = ({ currentUser, cartHidden }) => (
   <div className="header">
     <div className="logo-container">
-      <Link className="option">LOGO</Link>
+      <Link className="option" to="/">
+        LOGO
+      </Link>
     </div>
     <div className="options">
-      <Link className="option option--menu">SHOP</Link>
+      <Link className="option option--menu" to="/">
+        SHOP
+      </Link>
       <Link className="option option--menu">CONTACTS</Link>
       {currentUser ? (
         <div className="option" onClick={() => auth.signOut()}>
